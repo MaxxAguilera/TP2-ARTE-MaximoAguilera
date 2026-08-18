@@ -4,6 +4,7 @@
     width: 100%;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
+    list-style: none;
 }
 
 body {
@@ -12,32 +13,27 @@ body {
     line-height: 1.6;
 }
 header {
-    background-color: #080B14; 
+    background-color: black;
     position: fixed;
-    display: grid;
-    grid-template-rows: repeat(2, 50%);
-    grid-template-columns: 100%; /* Lo hice con el Layout */
-
-}
-header a {
+    padding: 1% 5%;
     display: flex;
+    align-items: center;
     justify-content: center;
+    gap: 10%;
+    height: 18vh;
 }
-header img {
-    width: 13%;
+header img{
+    width: 40%;
 }
 
-header nav {
-    height: 1%;
-}
 header nav ul {
     display: flex;
-    gap: 3%;
+    gap: 10%;
     justify-content: center;
 }
 
 header nav ul li a {
-display: inline-block;
+    display: inline-block;
     color: #FFFFFF;
     text-decoration: none;
     width: 100%;
