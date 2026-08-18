@@ -52,7 +52,7 @@ header nav ul li a:hover {
     height: auto;
 }
 
-main section {
+main section, main div {
     background-color: #FFFFFF;
     flex-basis: 22%;
     padding: 1.6%;
@@ -74,41 +74,35 @@ main section h2 {
 
 .cuadruple {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 5%;
     padding-left: 10%;
     padding-bottom: 3%;
     padding-right: 10%;
-    padding-top: 3%;
-    gap: 4%;
-    
+    padding-top: 5%;
 }
-.cuadruple img {
-    width: 70%;
-    margin-left: 15%;
-    border-radius: 40px;
-    display: block;
-}
+
 .cuadruple div {
-    background-color: #FFFFFF;
-    flex-basis: 22%;
+    background-color: #000000;
+    flex-basis: 18%;
     padding: 1.6%; 
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 9px 30px #00b6d1;
 }
 
 .cuadruple div:hover {
-    margin-top: -5px;    
-    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+    margin: -1.2rem;
+    font-size: 1.15rem;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 .cuadruple h2 {
-    color: #6B4F3D;
-    margin: 1.25%;
+    color: #22d3ee;
 }
 
 .cuadruple p {
-    color: #333333;
+    color:white;
 }
 
 .contacto{
