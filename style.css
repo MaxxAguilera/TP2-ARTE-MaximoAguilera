@@ -1,8 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    width: 100%;
-    box-sizing: border-box;
     font-family: 'Arial', sans-serif;
     list-style: none;
 }
@@ -13,27 +11,30 @@ body {
     line-height: 1.6;
 }
 header {
+    width: 90%;
     background-color: black;
     position: fixed;
     padding: 1% 5%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10%;
+    justify-content: space-around;
     height: 18vh;
 }
+header div {
+    width: 100%;
+}
 header img{
-    width: 40%;
+    width: 30%;
 }
 
 header nav ul {
     display: flex;
     gap: 10%;
     justify-content: center;
+    
 }
 
 header nav ul li a {
-    display: inline-block;
     color: #FFFFFF;
     text-decoration: none;
     width: 100%;
@@ -47,18 +48,19 @@ header nav ul li a:hover {
     color: #FFFFFF;
 }
 
-.banner {
+.portada {
     width: 100%;
-    height: auto;
 }
 
+main
+{
+    padding-top: 10%;
+}
 main section, main div {
-    background-color: #FFFFFF;
-    flex-basis: 22%;
-    padding: 1.6%;
     text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-top: 5%;
 }
 
 main section h2 {
@@ -75,11 +77,12 @@ main section h2 {
 .cuadruple {
     display: flex;
     justify-content: center;
-    gap: 5%;
-    padding-left: 10%;
-    padding-bottom: 3%;
-    padding-right: 10%;
-    padding-top: 5%;
+    gap: 3%;
+    padding-left: 5%;
+    padding-bottom: 8%;
+    padding-right: 5%;
+    margin: 0;
+    
 }
 
 .cuadruple div {
@@ -112,11 +115,20 @@ main section h2 {
 }
 .contacto div{
 
-background-color: #FFFFFF;
+    background-color: #FFFFFF;
     flex-basis: 22%;
     padding: 1.6%;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 40%;
+}
+
+.sucursalPrincipal{
+    width: 90%;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: repeat(2, 40%);
+    gap: 7%;
+    justify-content: center;
 }
