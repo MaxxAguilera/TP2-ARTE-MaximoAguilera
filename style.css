@@ -132,3 +132,10 @@ main section h2 {
     gap: 7%;
     justify-content: center;
 }
+
+footer {
+    width: 96%; 
+    padding: 2%;
+    background-color: #080808;
+    text-align: center;
+}
