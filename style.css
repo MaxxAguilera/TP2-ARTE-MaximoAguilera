@@ -137,5 +137,28 @@ footer {
     width: 96%; 
     padding: 2%;
     background-color: #080808;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+    justify-content: space-around;
+    margin-top: 8%;
+}
+
+footer div{
+    width: 20%;
+    display: flex;
+    gap: 2%;
+    align-items: center;
+}
+
+footer img{
+    width: 20%;
+}
+
+footer p{
+    color: white;
+}
+
+.derechosReservados{
+    
 }
